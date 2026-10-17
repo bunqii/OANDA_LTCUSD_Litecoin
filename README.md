@@ -1,0 +1,1 @@
+# OANDA_LTCUSD_Litecoin
