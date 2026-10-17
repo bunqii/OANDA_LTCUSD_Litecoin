@@ -1,0 +1,119 @@
+{
+  "pod_version": "4.0",
+  "instrument": "LTC_USD",
+  "granularity": "M1",
+  "chunk_start": "2020-09-01",
+  "chunk_end": "2020-09-30",
+  "parquet_file": "OANDA_LTCUSD_Litecoin_1_2020-09-01_to_2020-09-30.parquet",
+  "data_file": "OANDA_LTCUSD_Litecoin_1_2020-09-01_to_2020-09-30.parquet",
+  "row_count": 25504,
+  "first_candle": {
+    "time": 1598918400,
+    "Time": "2020-09-01T00:00:00.000000000Z",
+    "open": 61.44,
+    "high": 61.47,
+    "low": 61.42,
+    "close": 61.44,
+    "volume": 7
+  },
+  "last_candle": {
+    "time": 1601510340,
+    "Time": "2020-09-30T23:59:00.000000000Z",
+    "open": 46.23,
+    "high": 46.23,
+    "low": 46.22,
+    "close": 46.23,
+    "volume": 3
+  },
+  "csv_file": "OANDA_LTCUSD_Litecoin_1_2020-09-01_to_2020-09-30.parquet",
+  "csv_row_count": 25504,
+  "csv_first_candle": {
+    "time": 1598918400,
+    "Time": "2020-09-01T00:00:00.000000000Z",
+    "open": 61.44,
+    "high": 61.47,
+    "low": 61.42,
+    "close": 61.44,
+    "volume": 7
+  },
+  "csv_last_candle": {
+    "time": 1601510340,
+    "Time": "2020-09-30T23:59:00.000000000Z",
+    "open": 46.23,
+    "high": 46.23,
+    "low": 46.22,
+    "close": 46.23,
+    "volume": 3
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-16T02:03:39.000000000Z",
+  "generated_at": "2026-10-16T02:03:39.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 714,
+    "chunk_api_blocks": 10,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2020-08-28T19:01:00Z",
+        "to": "2020-09-01T06:21:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2020-09-01T06:21:00Z",
+        "to": "2020-09-04T17:41:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2020-09-04T17:41:00Z",
+        "to": "2020-09-08T05:01:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2020-09-08T05:01:00Z",
+        "to": "2020-09-11T16:21:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2020-09-11T16:21:00Z",
+        "to": "2020-09-15T03:41:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2020-09-15T03:41:00Z",
+        "to": "2020-09-18T15:01:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2020-09-18T15:01:00Z",
+        "to": "2020-09-22T02:21:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2020-09-22T02:21:00Z",
+        "to": "2020-09-25T13:41:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2020-09-25T13:41:00Z",
+        "to": "2020-09-29T01:01:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2020-09-29T01:01:00Z",
+        "to": "2020-10-02T12:21:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}

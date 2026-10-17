@@ -1,0 +1,119 @@
+{
+  "pod_version": "4.0",
+  "instrument": "LTC_USD",
+  "granularity": "M1",
+  "chunk_start": "2026-05-01",
+  "chunk_end": "2026-05-31",
+  "parquet_file": "OANDA_LTCUSD_Litecoin_1_2026-05-01_to_2026-05-31.parquet",
+  "data_file": "OANDA_LTCUSD_Litecoin_1_2026-05-01_to_2026-05-31.parquet",
+  "row_count": 24539,
+  "first_candle": {
+    "time": 1777593600,
+    "Time": "2026-05-01T00:00:00.000000000Z",
+    "open": 55.16,
+    "high": 55.18,
+    "low": 55.14,
+    "close": 55.14,
+    "volume": 4
+  },
+  "last_candle": {
+    "time": 1780271940,
+    "Time": "2026-05-31T23:59:00.000000000Z",
+    "open": 52.0,
+    "high": 52.0,
+    "low": 52.0,
+    "close": 52.0,
+    "volume": 9
+  },
+  "csv_file": "OANDA_LTCUSD_Litecoin_1_2026-05-01_to_2026-05-31.parquet",
+  "csv_row_count": 24539,
+  "csv_first_candle": {
+    "time": 1777593600,
+    "Time": "2026-05-01T00:00:00.000000000Z",
+    "open": 55.16,
+    "high": 55.18,
+    "low": 55.14,
+    "close": 55.14,
+    "volume": 4
+  },
+  "csv_last_candle": {
+    "time": 1780271940,
+    "Time": "2026-05-31T23:59:00.000000000Z",
+    "open": 52.0,
+    "high": 52.0,
+    "low": 52.0,
+    "close": 52.0,
+    "volume": 9
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-16T02:03:55.000000000Z",
+  "generated_at": "2026-10-16T02:03:55.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 714,
+    "chunk_api_blocks": 10,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2026-04-29T05:41:00Z",
+        "to": "2026-05-02T17:01:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2026-05-02T17:01:00Z",
+        "to": "2026-05-06T04:21:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2026-05-06T04:21:00Z",
+        "to": "2026-05-09T15:41:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2026-05-09T15:41:00Z",
+        "to": "2026-05-13T03:01:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2026-05-13T03:01:00Z",
+        "to": "2026-05-16T14:21:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2026-05-16T14:21:00Z",
+        "to": "2026-05-20T01:41:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2026-05-20T01:41:00Z",
+        "to": "2026-05-23T13:01:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2026-05-23T13:01:00Z",
+        "to": "2026-05-27T00:21:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2026-05-27T00:21:00Z",
+        "to": "2026-05-30T11:41:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2026-05-30T11:41:00Z",
+        "to": "2026-06-02T23:01:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
