@@ -1,0 +1,65 @@
+{
+  "pod_version": "4.0",
+  "instrument": "LTC_USD",
+  "granularity": "D",
+  "chunk_start": "2020-01-01",
+  "chunk_end": "2029-12-31",
+  "parquet_file": "OANDA_LTCUSD_Litecoin_D_2020-01-01_to_2029-12-31.parquet",
+  "data_file": "OANDA_LTCUSD_Litecoin_D_2020-01-01_to_2029-12-31.parquet",
+  "row_count": 1842,
+  "first_candle": {
+    "time": 1578002400,
+    "Time": "2020-01-02T22:00:00.000000000Z",
+    "open": 41.03,
+    "high": 42.73,
+    "low": 38.74,
+    "close": 41.76,
+    "volume": 10824
+  },
+  "last_candle": {
+    "time": 1792011600,
+    "Time": "2026-10-14T21:00:00.000000000Z",
+    "open": 59.34,
+    "high": 60.72,
+    "low": 57.19,
+    "close": 60.35,
+    "volume": 16699
+  },
+  "csv_file": "OANDA_LTCUSD_Litecoin_D_2020-01-01_to_2029-12-31.parquet",
+  "csv_row_count": 1842,
+  "csv_first_candle": {
+    "time": 1578002400,
+    "Time": "2020-01-02T22:00:00.000000000Z",
+    "open": 41.03,
+    "high": 42.73,
+    "low": 38.74,
+    "close": 41.76,
+    "volume": 10824
+  },
+  "csv_last_candle": {
+    "time": 1792011600,
+    "Time": "2026-10-14T21:00:00.000000000Z",
+    "open": 59.34,
+    "high": 60.72,
+    "low": 57.19,
+    "close": 60.35,
+    "volume": 16699
+  },
+  "status": "VERIFIED_PARTIAL",
+  "verified_at": "2026-10-16T02:04:15.000000000Z",
+  "generated_at": "2026-10-16T02:04:15.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 1,
+    "chunk_api_blocks": 1,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2020-01-02T22:00:00Z",
+        "to": "2026-10-15T21:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
