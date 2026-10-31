@@ -6,7 +6,7 @@
   "chunk_end": "2029-12-31",
   "parquet_file": "OANDA_LTCUSD_Litecoin_D_2020-01-01_to_2029-12-31.parquet",
   "data_file": "OANDA_LTCUSD_Litecoin_D_2020-01-01_to_2029-12-31.parquet",
-  "row_count": 1852,
+  "row_count": 1853,
   "first_candle": {
     "time": 1578002400,
     "Time": "2020-01-02T22:00:00.000000000Z",
@@ -17,16 +17,16 @@
     "volume": 10824
   },
   "last_candle": {
-    "time": 1793221200,
-    "Time": "2026-10-28T21:00:00.000000000Z",
-    "open": 58.96,
-    "high": 59.65,
-    "low": 54.34,
-    "close": 54.64,
-    "volume": 15673
+    "time": 1793307600,
+    "Time": "2026-10-29T21:00:00.000000000Z",
+    "open": 54.9,
+    "high": 56.38,
+    "low": 52.82,
+    "close": 55.06,
+    "volume": 21051
   },
   "csv_file": "OANDA_LTCUSD_Litecoin_D_2020-01-01_to_2029-12-31.parquet",
-  "csv_row_count": 1852,
+  "csv_row_count": 1853,
   "csv_first_candle": {
     "time": 1578002400,
     "Time": "2020-01-02T22:00:00.000000000Z",
@@ -37,17 +37,17 @@
     "volume": 10824
   },
   "csv_last_candle": {
-    "time": 1793221200,
-    "Time": "2026-10-28T21:00:00.000000000Z",
-    "open": 58.96,
-    "high": 59.65,
-    "low": 54.34,
-    "close": 54.64,
-    "volume": 15673
+    "time": 1793307600,
+    "Time": "2026-10-29T21:00:00.000000000Z",
+    "open": 54.9,
+    "high": 56.38,
+    "low": 52.82,
+    "close": 55.06,
+    "volume": 21051
   },
   "status": "VERIFIED_PARTIAL",
-  "verified_at": "2026-10-30T06:12:32.000000000Z",
-  "generated_at": "2026-10-30T06:12:32.000000000Z",
+  "verified_at": "2026-10-31T07:52:01.000000000Z",
+  "generated_at": "2026-10-31T07:52:01.000000000Z",
   "download_request": {
     "total_api_blocks_in_run": 1,
     "chunk_api_blocks": 1,
@@ -55,8 +55,8 @@
     "permanent_error_details": [],
     "all_block_outcomes": [
       {
-        "from": "2026-10-26T21:00:00Z",
-        "to": "2026-10-29T21:00:00Z",
+        "from": "2026-10-27T21:00:00Z",
+        "to": "2026-10-30T21:00:00Z",
         "code": 200,
         "msg": "OK"
       }
